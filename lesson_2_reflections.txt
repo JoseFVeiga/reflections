@@ -5,4 +5,7 @@ Q: How is the staging area different from the working directory and the reposito
 A: The staging area flags the files in the working directory for comitting. It allows us to have files in the working directory that are not eligible for commits.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
-A: I dont understand this fully at the moment. The staging area allows to conveniently see the changes between the working directory and the last commit (by comparing the working directory with the staging area) before you actually make the new commit...  
+A: I dont understand this fully at the moment. The staging area allows to conveniently see the changes between the working directory and the last commit (by comparing the working directory with the staging area) before you actually make the new commit...
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branching helps for working on several versions of the code at the same time. For example one might need to test some experimental features therefore creating an extra branch for it while maintaining the master branch intact.  
