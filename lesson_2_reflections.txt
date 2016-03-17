@@ -1,2 +1,5 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 A: A branch is created. A branch is needed to make commits into it.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The staging area flags the files in the working directory for comitting. It allows us to have files in the working directory that are not eligible for commits.
