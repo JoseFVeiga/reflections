@@ -15,3 +15,6 @@ A: Since git log can be non-linear, diagrams can help visualize the branch struc
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: When two branches are merged together, the code in the latest commits is merged and all the commits from both branches are now linked in the resulting branch. 
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Git's automatic merge, if there are no conflicts, seems to be always better than manual merging. But i am not sure yet of it's usefullness when there's a complex conflict during a merge. 
