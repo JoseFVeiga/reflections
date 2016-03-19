@@ -11,4 +11,7 @@ Q: What are some situations when branches would be helpful in keeping your histo
 A: Branching helps for working on several versions of the code at the same time. For example one might need to test some experimental features therefore creating an extra branch for it while maintaining the master branch intact.
 
 Q: How do the diagrams help you visualize the branch structure?
-A: Since git log can be non-linear, diagrams can help visualize the branch structure much faster.  
+A: Since git log can be non-linear, diagrams can help visualize the branch structure much faster. 
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: When two branches are merged together, the code in the latest commits is merged and all the commits from both branches are now linked in the resulting branch. 
