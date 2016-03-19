@@ -3,3 +3,8 @@ A: I'd want to use a remote repository whenever i want to share my code: either 
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: Because if my local repository suffered unwanted changes, i could possibly checkout a head commit from my local repository that wasn't the one expected.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Forks are clone operations done on the GitHub servers. You fork someone's repository, and get your own GitHub repository as a clone of the original.
+   Clones are repositories created by the clone operation. Basically a new repository is created with a full copy of the original repository.
+   A branch is a singly-linked list of commits. From its head you can reach every commit on the same branch.
