@@ -13,4 +13,7 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 A: I think the main benefit is having a local cache of the remote. This way you dont have to rely on an internet connection all the time. Also, in case of inconsistencies between the remote and the local master, you can get fetch the remote contents into the origin/master and do a merge between origin/master and master.
 
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-A: Collaboration would be less granular. Would probably have to be done with a large communication overhead between contributors. Git and GitHub seem to make collaboration easier. 
+A: Collaboration would be less granular. Would probably have to be done with a large communication overhead between contributors. Git and GitHub seem to make collaboration easier.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: Within the context of collaboration through GitHub in this lesson, making changes in a separate branch should be done in order to make a pull request on a remote repository that is being worked on by several people. The main benefit is that through this pull requests, the separate branch may be reviewed and possibly conflict corrected even, before a final merge.  
